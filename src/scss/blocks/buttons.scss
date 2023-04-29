@@ -1,1 +1,20 @@
+.header__button{
+    font-family: var(--font-family-open-sans);
+    font-size: 10px;
+    font-weight: var(--font-weight-regular);
+    padding: 6px 18px;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 50px;
+}
 
+.section-initial__button{
+    font-family: var(--font-family-open-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 12px;
+    color: var(--white);
+    background-color: var(--color-primary);
+    padding: 11px 40px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 30px -13px black;
+}

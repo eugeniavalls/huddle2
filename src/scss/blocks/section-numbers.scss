@@ -1,0 +1,29 @@
+.section-numbers{
+    padding: 0 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-bottom: 180px;
+
+    &__icon{
+        width: 35px;
+        margin-bottom: 16px;
+    }
+
+    &__title{
+        font-family: var(--font-family-open-sans);
+        font-weight: var(--font-weight-bold);
+        font-size: 60px;
+        margin: 0;
+        margin-bottom: 16px;
+        color: var(--text-color);
+    }
+
+    &__text{
+        font-family: var(--font-family-open-sans);
+        font-weight: var(--font-weight-regular);
+        font-size: 16px;
+        color: var(--color-secundary);
+        text-align: center;
+    }
+}

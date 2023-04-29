@@ -1,0 +1,28 @@
+.section-initial{
+    padding: 0 40px;
+    text-align: center;
+    margin-bottom: 120px;
+
+    &__container{
+        margin-bottom: 100px;
+    }
+
+    &__title{
+        font-family: var(--font-family-poppins);
+        font-weight: var(--font-weight-bold);
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0;
+        color: var(--text-color);
+        margin-bottom: 24px;
+    }
+
+    &__text{
+        font-family: var(--font-family-open-sans);
+        font-weight: var(--font-weight-regular);
+        font-size: 14px;
+        line-height: 21px;
+        color: var(--text-color);
+        margin-bottom: 48px;
+    }
+}

@@ -18,3 +18,17 @@
     border-radius: 50px;
     box-shadow: 5px 5px 30px -13px black;
 }
+
+.footer__button-white{
+    width: 320px;
+    padding: 24px;
+    background-color: var(--white);
+}
+
+.footer__button-pink{
+    padding: 12px 41px;
+    background-color: var(--color-primary);
+    font-family: var(--font-family-open-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: 16px;
+}

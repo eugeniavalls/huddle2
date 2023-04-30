@@ -1,3 +1,5 @@
+@use "../mixins/responsive.scss" as *;
+
 .section-numbers{
     padding: 0 108px;
     display: flex;
@@ -5,9 +7,19 @@
     gap: 90px;
     margin-bottom: 180px;
 
+    @include responsive(desktop){
+        padding: 0 280px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     &__icon{
         width: 35px;
         margin-bottom: 16px;
+
+        @include responsive(desktop){
+            width: 56px;
+        }
     }
 
     &__title{
@@ -17,6 +29,10 @@
         margin: 0;
         margin-bottom: 16px;
         color: var(--text-color);
+
+        @include responsive(desktop){
+            font-size: 95px;
+        }
     }
 
     &__text{
@@ -25,5 +41,9 @@
         font-size: 16px;
         color: var(--color-secundary);
         text-align: center;
+
+        @include responsive(desktop){
+            font-size: 24px;
+        }
     }
 }

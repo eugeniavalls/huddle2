@@ -1,5 +1,7 @@
 /* ESTILOS DEL FOOTER */
 
+@use "../mixins/responsive.scss" as *;
+
 .footer{
     padding: 0 28px;
     background-color: var(--background-color-footer);
@@ -7,9 +9,20 @@
     display: flex;
     flex-direction:column-reverse;
 
+    @include responsive(desktop){
+        padding: 120px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     &__logo{
         width: 200px;
         margin-bottom: 16px;
+
+        @include responsive(desktop){
+            width: 240px;
+            margin-bottom: 24px;
+        }
     }
 
     &__contact--text{
@@ -18,16 +31,25 @@
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 40px;
+
     }
 
     &__text{
         font-family: var(--font-family-open-sans);
         font-weight: var(--font-weight-regular);
         font-size: 14px;
+
+        @include responsive(desktop){
+            font-size: 16px;
+        }
     }
 
     &__contact{
         margin-bottom: 48px;
+
+        @include responsive(desktop){
+            width: 340px;
+        }
     }
 
     &__contact--icons{
@@ -38,6 +60,10 @@
 
     &__newsletter{
         margin-bottom: 100px;
+
+        @include responsive(desktop){
+            width: 520px;
+        }
     }
 
     &__newsletter--title{
@@ -45,6 +71,11 @@
         font-weight: var(--font-weight-bold);
         font-size: 20px;
         margin-bottom: 16px;
+
+        @include responsive(desktop){
+            font-size: 24px;
+
+        }
     }
 
     &__newsletter--text{
@@ -53,6 +84,10 @@
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 32px;
+
+        @include responsive(desktop){
+            padding-right: 175px;
+        }
     }
 
     &__newsletter--buttons{
@@ -60,5 +95,24 @@
         flex-direction: column;
         align-items: end;        
         gap: 1rem;
+
+        @include responsive(desktop){
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 40px;
+        }
     }
+}
+
+.footer__curve{
+        width: 475px;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+    
+        @include responsive(desktop){
+            width: 1500px;
+            top: 0;
+            top: 2px;
+        }
 }

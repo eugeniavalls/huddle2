@@ -1,3 +1,5 @@
+@use "../mixins/responsive.scss" as *;
+
 .header{
     display: flex;
     align-items: center;
@@ -5,7 +7,16 @@
     padding: 24px;
     margin-bottom: 100px;
 
+    @include responsive(desktop){
+        padding: 75px;
+        margin-bottom: 225px;
+    }
+
     &__logo{
         width: 95px;
+
+        @include responsive(desktop){
+            width: 240px;
+        }
     }
 }

@@ -1,7 +1,14 @@
+@use "../mixins/responsive.scss" as *;
+
 .section-ready{
     padding: 0 16px;
     text-align: center;
+    margin-top: 150px;
     margin-bottom: 250px;
+
+    @include responsive(desktop){
+        padding: 0 370px;
+    }
 
     &__title{
         font-family: var(--font-family-poppins);
@@ -11,5 +18,11 @@
         color: var(--text-color);
         margin: 0;
         margin-bottom: 40px;
+
+        @include responsive(desktop){
+            font-size: 40px;
+            line-height: 60px;
+            margin-bottom: 80px;
+        }
     }
 }

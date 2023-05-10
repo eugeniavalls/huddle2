@@ -1,11 +1,10 @@
-# Título del proyecto
+# PRÁCTICA
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica1-puente/main/src/assets/screenshots/01.png)
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)
-- [URL-de-la-api](URL-de-la-api)
+- [Vista en vivo](https://eugeniavalls.github.io/practica1-puente/)
 
 ## Descripción 📑
 
@@ -27,16 +26,16 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/eugeniavalls/practica1-puente/main/src/assets/screenshots/02.png)
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 ![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**EUGENIA VALLS ALFARO**
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+- [Correo electrónico](e.vallsalfaro@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/eugenia-valls-alfaro-540b1a20a)
 - [Porfolio web](https://tu-dominio.com/)
 
 ## Instalación
